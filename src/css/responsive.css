@@ -1,0 +1,96 @@
+@media(max-width: 1140px){
+    .container {
+        gap: 40px;
+    }
+
+    .container .content {
+        max-width: 420px;
+        max-height: 350px;
+    }
+
+    .container .content .title { 
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .form { 
+        width: 500px;
+        height: 450px;
+    }
+}
+
+@media(max-width: 768px){
+    .container {
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .container .content {
+        text-align: center;
+    }
+
+    .container .content .title { 
+        margin-top: 30;
+    }
+}
+
+@media(max-width: 375px){
+    .container {
+        background-image: url(../images/bg-intro-mobile.png);
+        background-size: contain;
+        gap: 30px;
+    }
+
+    .container .content {
+        max-width: 320px;
+        max-height: 400px;
+    }
+
+    .container .content .title { 
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .container .content .text {
+        text-align: center;
+    }
+
+    .form {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .form .offer {
+        font-size: 14px;
+        padding: 15px 45px;
+    }
+    
+    .form #form {
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .data {
+        height: 40px;
+    }
+
+    .input {
+        height: 40px;
+        padding-left: 20px;
+    }
+
+    .error {
+        width: 20px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+}

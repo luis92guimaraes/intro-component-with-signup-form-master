@@ -1,0 +1,7 @@
+:root {
+    --bg-color: hsl(0, 100%, 74%);
+    --btn-color: hsl(154, 59%, 51%);
+    --bg-offer-color: hsl(248, 32%, 49%);
+    --input-color:hsl(249, 10%, 26%);
+    --txt-color: hsl(246, 25%, 77%);
+}
