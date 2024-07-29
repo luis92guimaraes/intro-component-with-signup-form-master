@@ -39,7 +39,7 @@
     .container {
         background-image: url(../images/bg-intro-mobile.png);
         gap: 30px;
-        /* height: 700px; */
+        height: 700px;
     }
 
     .container .content {
