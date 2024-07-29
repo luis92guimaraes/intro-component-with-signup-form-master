@@ -21,7 +21,7 @@
 
 @media(max-width: 768px){
     .container {
-        height: 1000px;
+        height: 900px;
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -38,13 +38,12 @@
 @media(max-width: 375px){
     .container {
         background-image: url(../images/bg-intro-mobile.png);
-        gap: 30px;
-        height: 700px;
+        gap: 100px;
     }
 
     .container .content {
         max-width: 320px;
-        max-height: 400px;
+        max-height: 200px;
     }
 
     .container .content .title { 
@@ -56,11 +55,13 @@
 
     .container .content .text {
         text-align: center;
+        font-size: 16px;
+
     }
 
     .form {
-        width: 300px;
-        height: 420px;
+        width: 320px;
+        height: 400px;
     }
     
     .form .offer {
@@ -69,7 +70,7 @@
     }
     
     .form #form {
-        width: 300px;
+        width: 320px;
         height: 420px;
         padding: 20px;
     }
@@ -90,11 +91,12 @@
     }
 
     .btn {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         padding: 15px;
     }
 
     .terms {
-        padding: 0 10px;
+        padding: 0 3px;
     }
+
 }
