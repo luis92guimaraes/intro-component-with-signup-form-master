@@ -86,12 +86,6 @@
     font-weight: 600;
 }
 
-.info {
-    text-align: right;
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: var(--bg-color);
-}
 
 .btn {
     cursor: pointer;
@@ -122,16 +116,25 @@
     position: absolute;
     right: 30px;
     bottom: 15px;
+    opacity: 0;
 }
 
-.input .campo.preenchido {
+.info {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: var(--bg-color);
+    opacity: 0;
+}
+
+.input.filled {
     border: 1px solid var(--btn-color);
 }
 
-.input .campo.vazio {
+.input.empty {
     border: 1px solid var(--bg-color);
 }
 
-.hide {
-    opacity: 0;
+.error.show , .info.show{
+    opacity: 1;
 }
